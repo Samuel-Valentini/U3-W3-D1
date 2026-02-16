@@ -54,7 +54,7 @@ console.log(concatenator("uno", "due"));
 
 // 7) Cos'è un Type Union e come si scrive?
 
-// È una condizione in cui una variabile può contenere valori di due tipi diversi
+// È una condizione in cui una variabile può contenere valori di due o più tipi diversi
 
 let rate: number | string = "ottimo";
 
@@ -65,8 +65,23 @@ let attendance: number | null | undefined;
 console.log(attendance);
 
 // 9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
+
+type WeekDay =
+    | "lunedì"
+    | "martedì"
+    | "mercoledì"
+    | "giovedì"
+    | "venerdì"
+    | "sabato"
+    | "domenica";
+
 // 10) Tipizza il seguente array di numeri nei due modi possibili:
 // const numbers = [1, 2, 3]
+
+const numbers2: number[] = [1, 2, 3];
+const numbers3: Array<number> = [1, 2, 3];
+const numbers: [number, number, number] = [1, 2, 3];
+
 // 11) Crea una tupla per definire un array di 5 elementi, i primi 3 devono essere stringhe e gli ultimi due numeri.
 // 12) Qual è la differenza tra type e interface?
 // 13) Definisci un'interfaccia in TypeScript per un oggetto dotato di proprietà "firstname", "lastname", e "age".
