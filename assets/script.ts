@@ -1,9 +1,30 @@
 console.log("Hello World!");
 
 // 1) Quali sono i tipi primitivi principali in TypeScript?
+
+// Sono :
+// string
+// number
+// boolean
+// undefined
+// null
+// any
+
 // 2) Crea tre variabili tipizzate: una stringa con il tuo nome, un numero con la tua età, e un booleano che indica se stai studiando TypeScript.
+
+const myName: string = "Samuel";
+const myAge: number = 38;
+let amIStudyingTypescript: boolean = true;
+
 // 3) Tipizza il parametro della seguente funzione:
 // const greet = (name) => { return "Ciao " + name }
+
+const greet = (name: string) => {
+    return "Ciao " + name;
+};
+
+console.log(greet("Stefano"));
+
 // 4) Specifica il tipo di ritorno della seguente funzione:
 // const sum = (a: number, b: number) => { return a + b }
 // 5) Crea una funzione che accetti un prezzo e restituisca il prezzo con IVA (22%). Usa i tipi appropriati.
