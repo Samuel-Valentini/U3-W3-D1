@@ -31,6 +31,10 @@ console.log(ivator("100.00 €"));
 console.log(ivator("0.01 €"));
 console.log(ivator("100.20 €"));
 // 6) Crea una funzione che concateni due stringhe e restituisca la lunghezza totale.
+var concatenator = function (str1, str2) {
+    return (str1 + str2).length;
+};
+console.log(concatenator("uno", "due"));
 // 7) Cos'è un Type Union e come si scrive?
 // 8) Crea una variabile che possa contenere un numero, null o undefined.
 // 9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
