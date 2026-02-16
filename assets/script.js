@@ -48,9 +48,21 @@ var numbers3 = [1, 2, 3];
 var numbers = [1, 2, 3];
 // 11) Crea una tupla per definire un array di 5 elementi, i primi 3 devono essere stringhe e gli ultimi due numeri.
 var arrayOfFive;
-// 15) Crea un array tipizzato di oggetti "Studente" con nome e voto.
-// 16) Crea un'interfaccia base "Veicolo" e estendila per creare "Auto".
+var studentsArray;
+studentsArray = [
+    { studentName: "gino", rate: "ottimo" },
+    { studentName: "marco", rate: 10 },
+];
+console.log(studentsArray);
 // 17) Crea un oggetto che implementi l'interfaccia Auto.
+var toyotaRav4 = {
+    humanUse: true,
+    color: "white, black, blue",
+    drivingSide: "left or right",
+};
+console.log(toyotaRav4);
 // 18) Cosa sono i Generics in TypeScript?
+// sono dei parametri da dare ad un interface definita che indicano che tipo di valore può essere contenuto dalle proprietà definite dal generic.
 // 19) È possibile avere più tipi generici in un'interfaccia?
+// Sì
 // 20) Crea un'interfaccia generica per una risposta API.
