@@ -27,7 +27,23 @@ console.log(greet("Stefano"));
 
 // 4) Specifica il tipo di ritorno della seguente funzione:
 // const sum = (a: number, b: number) => { return a + b }
+
+const sum = (a: number, b: number): number => {
+    return a + b;
+};
+
+console.log(sum(0.2, 0.1));
+
 // 5) Crea una funzione che accetti un prezzo e restituisca il prezzo con IVA (22%). Usa i tipi appropriati.
+
+const ivator = (price: string): string => {
+    return (Math.round(parseFloat(price) * 1.22 * 100) / 100).toFixed(2) + " €";
+};
+
+console.log(ivator("100.00 €"));
+console.log(ivator("0.01 €"));
+console.log(ivator("100.20 €"));
+
 // 6) Crea una funzione che concateni due stringhe e restituisca la lunghezza totale.
 // 7) Cos'è un Type Union e come si scrive?
 // 8) Crea una variabile che possa contenere un numero, null o undefined.
