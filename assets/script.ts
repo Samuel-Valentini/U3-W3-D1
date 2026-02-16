@@ -91,7 +91,20 @@ let arrayOfFive: [string, string, string, number, number];
 // I type non sono estensibili, ma al massimo si può fare una type union.
 
 // 13) Definisci un'interfaccia in TypeScript per un oggetto dotato di proprietà "firstname", "lastname", e "age".
+
+interface identify {
+    firstname: string;
+    lastname: string;
+    age: string;
+}
+
 // 14) Crea un'interfaccia per un utente con email obbligatoria e telefono opzionale.
+
+interface user {
+    email: string;
+    phone?: string;
+}
+
 // 15) Crea un array tipizzato di oggetti "Studente" con nome e voto.
 // 16) Crea un'interfaccia base "Veicolo" e estendila per creare "Auto".
 // 17) Crea un oggetto che implementi l'interfaccia Auto.
