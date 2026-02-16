@@ -61,8 +61,3 @@ var toyotaRav4 = {
     drivingSide: "left or right",
 };
 console.log(toyotaRav4);
-// 18) Cosa sono i Generics in TypeScript?
-// sono dei parametri da dare ad un interface definita che indicano che tipo di valore può essere contenuto dalle proprietà definite dal generic.
-// 19) È possibile avere più tipi generici in un'interfaccia?
-// Sì
-// 20) Crea un'interfaccia generica per una risposta API.

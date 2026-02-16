@@ -151,3 +151,10 @@ console.log(toyotaRav4);
 // Sì
 
 // 20) Crea un'interfaccia generica per una risposta API.
+
+interface APIResponse<D, N, E = "string"> {
+    data: D;
+    status: N;
+    ok: boolean;
+    error?: E;
+}
