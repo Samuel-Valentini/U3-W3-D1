@@ -36,7 +36,11 @@ var concatenator = function (str1, str2) {
 };
 console.log(concatenator("uno", "due"));
 // 7) Cos'è un Type Union e come si scrive?
+// È una condizione in cui una variabile può contenere valori di due tipi diversi
+var rate = "ottimo";
 // 8) Crea una variabile che possa contenere un numero, null o undefined.
+var attendance;
+console.log(attendance);
 // 9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
 // 10) Tipizza il seguente array di numeri nei due modi possibili:
 // const numbers = [1, 2, 3]
