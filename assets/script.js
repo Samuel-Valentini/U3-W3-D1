@@ -49,6 +49,7 @@ var numbers = [1, 2, 3];
 // 11) Crea una tupla per definire un array di 5 elementi, i primi 3 devono essere stringhe e gli ultimi due numeri.
 var arrayOfFive;
 // 12) Qual è la differenza tra type e interface?
+// I type non sono estensibili, ma al massimo si può fare una type union.
 // 13) Definisci un'interfaccia in TypeScript per un oggetto dotato di proprietà "firstname", "lastname", e "age".
 // 14) Crea un'interfaccia per un utente con email obbligatoria e telefono opzionale.
 // 15) Crea un array tipizzato di oggetti "Studente" con nome e voto.
