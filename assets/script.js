@@ -47,6 +47,7 @@ var numbers2 = [1, 2, 3];
 var numbers3 = [1, 2, 3];
 var numbers = [1, 2, 3];
 // 11) Crea una tupla per definire un array di 5 elementi, i primi 3 devono essere stringhe e gli ultimi due numeri.
+var arrayOfFive;
 // 12) Qual è la differenza tra type e interface?
 // 13) Definisci un'interfaccia in TypeScript per un oggetto dotato di proprietà "firstname", "lastname", e "age".
 // 14) Crea un'interfaccia per un utente con email obbligatoria e telefono opzionale.
